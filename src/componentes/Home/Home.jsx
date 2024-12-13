@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="dog-image-container">
           <img
-            src="./src/assets/img/iStock-180869579-1-847x1024.webp"
+            src="../src/assets/img/iStock-180869579-1-847x1024.webp"
             alt="Dog"
             className="dog-image"
           />
