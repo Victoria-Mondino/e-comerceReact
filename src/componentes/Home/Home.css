@@ -159,6 +159,7 @@
  /* PetSection.css */
  .pet-section {
   padding: 3rem;
+  margin-bottom: 8rem;
  }
 .pet-content {
   display: flex;

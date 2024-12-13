@@ -3,34 +3,34 @@
         "id": 1,
         "titulo": "Stella & Chewy’s Wild weenies grain free chicken recipe freeze dried raw dog treats",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "gato",
+        "categoria": "cat",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export5-640x640.jpg",
         "precio": 1500,
         "stock": 10
     },
     {
         "id": 2,
-        "titulo": "Muffin - Mix - Strawberry Rhubarb",
+        "titulo": "ACANA Singles Grain Free Limited Ingredient Diet Duck and Pear Formula Dog Treats",
         "descripcion": "Nulla ut erat id mauris vulputate elementum.",
-        "categoria": "medias",
+        "categoria": "dog",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export3-426x426.jpg",
         "precio": 1500,
         "stock": 10
     },
     {
         "id": 3,
-        "titulo": "Appetizer - Tarragon Chicken",
+        "titulo": "Stella & Chewy’s Freeze Dried Raw Chewy’s Chicken Meal Mixers Grain Free Dog Food Topper",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "pantalones",
+        "categoria": "cat",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export4-426x426.jpg",
         "precio": 1500,
         "stock": 10
     },
     {
         "id": 4,
-        "titulo": "Jam - Strawberry, 20 Ml Jar",
+        "titulo": "BIXBI Hip & Joint Beef Liver Jerky Recipe Dog Treats",
         "descripcion": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
-        "categoria": "remeras",
+        "categoria": "dog",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/05/Product-7-426x426.jpg",
         "precio": 1500,
         "stock": 10

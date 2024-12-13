@@ -1,3 +1,36 @@
 body {
     background-color: #F5F5F5;
+    font-family: "Fredoka", sans-serif;
+    
 }
+
+.ver-mas {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background: #ffe23e;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .ver-mas:hover {
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+  }
+  .producto-titulo {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  .producto-parrafo {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+  }

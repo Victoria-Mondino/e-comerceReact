@@ -1,5 +1,6 @@
 
 import Categories from "./componentes/Categories/Categories";
+import Footer from "./componentes/Footer/Footer";
 import Home from "./componentes/Home/Home";
 import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
 import NavBar from "./componentes/NavBar/NavBar";
@@ -11,6 +12,7 @@ function App() {
     <div>
       <NavBar />
       <Home />
+      <Footer />
     </div>
   );
 }
