@@ -38,7 +38,7 @@ const Home = () => {
         <h2 class="trending-title">Trending</h2>
         <div class="trending-items">
           <div class="trending-item">
-            <a href="#"><img src="src/assets/img/iStock-1140125261.webp" alt="Outdoor Toys" class="trending-image" /></a>
+            <a href="#"><img src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-1271793136.jpg" alt="Outdoor Toys" class="trending-image" /></a>
             <p class="trending-shop">Shop</p>
             <h3 class="trending-name">Outdoor Toys</h3>
           </div>
@@ -48,7 +48,7 @@ const Home = () => {
              <h3 class="trending-name">Vital Care</h3>
           </div>
           <div class="trending-item">
-            <a href="#"> <img src="src/assets/img/iStock-1271793136.webp" alt="Fresh & Frozen" class="trending-image" /> </a>
+            <a href="#"> <img src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-1140125261.jpg" alt="Fresh & Frozen" class="trending-image" /> </a>
             <p class="trending-shop">Shop</p>
             <h3 class="trending-name">Fresh & Frozen</h3>
           </div>
@@ -60,12 +60,12 @@ const Home = () => {
       <div className="pet-content">
         <div className="pet-images">
           <img
-            src="src/assets/iStock-513048080.webp"
+            src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-513048080.png"
             alt="Dog and Cat"
             className="pet-main-image"
           />
           <img
-            src="src/assets/iStock-1326701268.webp"
+            src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-1326701268.png"
             alt="Food bowl"
             className="food-bowl-image"
           />
