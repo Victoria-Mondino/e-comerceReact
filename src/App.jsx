@@ -11,10 +11,6 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      <Categories />
-    
-      
-      <ItemListContainer />
     </div>
   );
 }

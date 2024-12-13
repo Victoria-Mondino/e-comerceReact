@@ -156,4 +156,77 @@
 }
 
 
- 
+ /* PetSection.css */
+ .pet-section {
+  padding: 3rem;
+ }
+.pet-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pet-images {
+  position: relative;
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.pet-main-image {
+  width: 100%;
+  max-width: 500px;
+}
+
+.food-bowl-image {
+  position: absolute;
+  bottom: -10%;
+  left: 70%;
+  transform: translateX(-50%);
+  width: 150px;
+}
+
+.pet-info {
+  flex: 1 1 50%;
+  text-align: left;
+
+  
+}
+
+.pet-info h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2b2b2b;
+  line-height: 1.4;
+  max-width: 600px;
+}
+
+.highlight {
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  color: #fdd835;
+  text-decoration: underline;
+}
+
+.pet-info p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 1rem 0;
+  max-width: 600px;
+}
+
+.learn-more {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}

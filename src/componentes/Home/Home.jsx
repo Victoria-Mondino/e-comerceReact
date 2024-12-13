@@ -1,5 +1,7 @@
 import React from 'react'
-import "./Home.css"
+import "./Home.css";
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import Categories from '../Categories/Categories';
 
 
 const Home = () => {
@@ -46,12 +48,46 @@ const Home = () => {
              <h3 class="trending-name">Vital Care</h3>
           </div>
           <div class="trending-item">
-            <a href="#"> <img src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-1140125261.jpg" alt="Fresh & Frozen" class="trending-image" /> </a>
+            <a href="#"> <img src="src/assets/img/iStock-1271793136.webp" alt="Fresh & Frozen" class="trending-image" /> </a>
             <p class="trending-shop">Shop</p>
             <h3 class="trending-name">Fresh & Frozen</h3>
           </div>
         </div>
+        <Categories />
+        <ItemListContainer />
     </div>
+    <section className="pet-section">
+      <div className="pet-content">
+        <div className="pet-images">
+          <img
+            src="src/assets/iStock-513048080.webp"
+            alt="Dog and Cat"
+            className="pet-main-image"
+          />
+          <img
+            src="src/assets/iStock-1326701268.webp"
+            alt="Food bowl"
+            className="food-bowl-image"
+          />
+        </div>
+        <div className="pet-info">
+          <h1>
+            Your <span className="highlight">favorite</span> pet <br /> food & supplies
+            store
+          </h1>
+          <p>
+            PetMania is a family-owned business. Our mission is to service our
+            community and their pets with outstanding services and high-quality
+            products. We offer a variety of brands of dry, wet, treats, toys,
+            raw & fresh food, aquatics, and more for dogs, cats, small animals,
+            fish, and reptiles.
+          </p>
+          <a href="#learn-more" className="learn-more">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </section>
     
   
     </div>
