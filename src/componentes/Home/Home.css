@@ -71,7 +71,7 @@
     position: absolute;
     top: 50%;
     bottom: 0;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, 30%);
     width: 100%;
   }
@@ -107,7 +107,7 @@
 .trending-title {
   font-family: "Fredoka", sans-serif;
   margin-top: 2rem;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 3rem;
 }
@@ -151,9 +151,9 @@
 
 .trending-name {
   font-family: "Fredoka", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
-  /* seccion copmrar por mascota */
+
  
