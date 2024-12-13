@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="dog-image-container">
           <img
-            src="../src/assets/img/iStock-180869579-1-847x1024.webp"
+            src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-180869579-1-847x1024.png"
             alt="Dog"
             className="dog-image"
           />
