@@ -1,0 +1,80 @@
+/* NavBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo .logo {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 8rem;
+  }
+  
+ 
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a3747;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-menu li a:hover {
+    color: #0077b6;
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+    text-decoration-thickness: 2px;
+    
+  }
+  
+  .navbar-icons {
+    display: flex;
+    gap: 25px;
+    margin-right: 4rem;
+  }
+  
+  .navbar-icons i {
+    font-size: 14px;
+    border-radius: 100%;
+    color: #ffffff;
+    background-color: #0a3747;
+    padding: 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .navbar-icons i:hover {
+   background-color: black;
+  }
+  

@@ -1,0 +1,30 @@
+
+.category-card {
+    text-align: center;
+    background-color: #eef4ff;
+    border-radius: 12px;
+    width: 100px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    margin-bottom: 7rem;
+  }
+  
+  .category-card:hover {
+    background-color: #ffeb34;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-card .emoji {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .category-card p {
+    color: #002e4d;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  

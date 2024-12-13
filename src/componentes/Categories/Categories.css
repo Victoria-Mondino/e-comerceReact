@@ -1,0 +1,23 @@
+.categories-container {
+    background-color: #F5F5F5;
+    text-align: center;
+  }
+  
+  .categories-container h2 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #002e4d;
+    margin: 20px 0 2rem 0;
+    padding-top: 8rem;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
