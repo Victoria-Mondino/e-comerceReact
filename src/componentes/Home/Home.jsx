@@ -19,7 +19,7 @@ const Home = () => {
             className="dog-image"
           />
           <img
-            src="./src/assets/img/iStock-180869579-2-1.webp"
+            src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-180869579-2-1.png"
             alt="Dog Food"
             className="food-image"
           />
