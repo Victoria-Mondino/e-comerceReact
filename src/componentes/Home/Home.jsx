@@ -36,17 +36,17 @@ const Home = () => {
         <h2 class="trending-title">Trending</h2>
         <div class="trending-items">
           <div class="trending-item">
-            <a href="#"><img src="src/assets/img/iStock-1271793136.webp" alt="Outdoor Toys" class="trending-image" /></a>
+            <a href="#"><img src="src/assets/img/iStock-1140125261.webp" alt="Outdoor Toys" class="trending-image" /></a>
             <p class="trending-shop">Shop</p>
             <h3 class="trending-name">Outdoor Toys</h3>
           </div>
           <div class="trending-item">
-          <a href="#"><img src="src/assets/img/iStock-1398781665.webp" alt="Outdoor Toys" class="trending-image" /></a>
+          <a href="#"><img src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-1398781665.jpg" alt="Outdoor Toys" class="trending-image" /></a>
             <p class="trending-shop">Shop</p>
              <h3 class="trending-name">Vital Care</h3>
           </div>
           <div class="trending-item">
-            <a href="#"> <img src="src/assets/img/iStock-1140125261.webp" alt="Fresh & Frozen" class="trending-image" /> </a>
+            <a href="#"> <img src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-1140125261.jpg" alt="Fresh & Frozen" class="trending-image" /> </a>
             <p class="trending-shop">Shop</p>
             <h3 class="trending-name">Fresh & Frozen</h3>
           </div>
