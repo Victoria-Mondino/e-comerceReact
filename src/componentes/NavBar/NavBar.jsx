@@ -15,9 +15,9 @@ const NavBar = () => {
         <ul className="navbar-menu">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/About"> About</Link></li>
-          <li><Link to="#">Shop</Link></li>
-          <li><Link to="#">Shop by Brand</Link></li>
-          <li><Link to="#">Pet Services</Link></li>
+          <li><Link to="/productos">Shop</Link></li>
+          <li><Link to="/productos/perros">Perro</Link></li>
+          <li><Link to="/productos/gatos">Gato</Link></li>
           <li><Link to="#">Contact</Link></li>
         </ul>
         <div className="navbar-icons">

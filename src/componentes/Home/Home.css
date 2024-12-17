@@ -221,13 +221,29 @@
   max-width: 600px;
 }
 
+/* Estilo base para el botón */
 .learn-more {
+  display: inline-block;
+  padding: 12px 20px; 
   font-size: 1rem;
-  color: #007bff;
+  color: #fff;
+  background-color: #007bff; 
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.3s ease; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+
 .learn-more:hover {
-  text-decoration: underline;
+  background-color: #0056b3; 
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-2px); 
+}
+
+
+.learn-more:active {
+  transform: translateY(0); 
 }

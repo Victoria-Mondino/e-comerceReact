@@ -3,7 +3,7 @@
         "id": 1,
         "titulo": "Stella & Chewy’s Wild weenies grain free chicken recipe freeze dried raw dog treats",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "cat",
+        "categoria": "gatos",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export5-640x640.jpg",
         "precio": 1500,
         "stock": 10
@@ -12,7 +12,7 @@
         "id": 2,
         "titulo": "ACANA Singles Grain Free Limited Ingredient Diet Duck and Pear Formula Dog Treats",
         "descripcion": "Nulla ut erat id mauris vulputate elementum.",
-        "categoria": "dog",
+        "categoria": "perros",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export3-426x426.jpg",
         "precio": 1500,
         "stock": 10
@@ -21,7 +21,7 @@
         "id": 3,
         "titulo": "Stella & Chewy’s Freeze Dried Raw Chewy’s Chicken Meal Mixers Grain Free Dog Food Topper",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "cat",
+        "categoria": "peces",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export4-426x426.jpg",
         "precio": 1500,
         "stock": 10
@@ -30,7 +30,7 @@
         "id": 4,
         "titulo": "BIXBI Hip & Joint Beef Liver Jerky Recipe Dog Treats",
         "descripcion": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
-        "categoria": "dog",
+        "categoria": "perro",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/05/Product-7-426x426.jpg",
         "precio": 1500,
         "stock": 10
@@ -39,7 +39,7 @@
         "id": 5,
         "titulo": "Glass - Juice Clear 5oz 55005",
         "descripcion": "Sed accumsan felis.",
-        "categoria": "buzos",
+        "categoria": "reptiles",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export6-426x426.webp",
         "precio": 1500,
         "stock": 10

@@ -3,13 +3,14 @@ import CategoryCard from "../CategoryCard/CategoryCard";
 import "./Categories.css";
 
 const categories = [
-  { name: "Dogs", emoji: "🐕", link: "/productos-perros" },
-  { name: "Cats", emoji: "🐈", link: "/productos-gatos" },
-  { name: "Small", emoji: "🐇", link: "/productos-pequeno" },
-  { name: "Fish", emoji: "🐟", link: "/productos-peces" },
-  { name: "Reptil", emoji: "🦎", link: "/productos-reptiles" },
-  { name: "Bird", emoji: "🦜", link: "/productos-pajaros" },
+  { name: "Dogs", emoji: "🐕", link: "/productos/perros" },
+  { name: "Cats", emoji: "🐈", link: "/productos/productos-gatos" },
+  { name: "Small", emoji: "🐇", link: "/productos/productos-pequeno" },
+  { name: "Fish", emoji: "🐟", link: "/productos/productos-peces" },
+  { name: "Reptil", emoji: "🦎", link: "/productos/productos-reptiles" },
+  { name: "Bird", emoji: "🦜", link: "/productos/productos-pajaros" },
 ];
+
 
 const Categories = () => {
   return (
