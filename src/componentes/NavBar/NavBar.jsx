@@ -18,7 +18,7 @@ const NavBar = () => {
           <li><Link to="/productos">Shop</Link></li>
           <li><Link to="/productos/perros">Perro</Link></li>
           <li><Link to="/productos/gatos">Gato</Link></li>
-          <li><Link to="#">Contact</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
         </ul>
         <div className="navbar-icons">
           <i class="bi bi-search"></i>

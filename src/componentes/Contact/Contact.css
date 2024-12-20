@@ -1,0 +1,145 @@
+/* General container styling */
+.contact-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: "Fredoka", sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Title styling */
+  .contact-title {
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  /* Description */
+  .contact-description {
+    font-size: 1rem;
+    margin: 2rem auto 2rem;
+    max-width: 600px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Contact details */
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-info a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styling */
+  .retail-button {
+    background-color: #002a3b;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .retail-button:hover {
+    background-color: #004b64;
+  }
+  /* Container general */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: "Fredoka", sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 4rem auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Texto de la izquierda */
+  .form-text {
+    max-width: 40%;
+    text-align: left;
+  }
+  
+  .form-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  /* Formulario */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .form-input,
+  .form-textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    outline: none;
+    border-color: #0073e6;
+  }
+  
+  .form-textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  /* Botón */
+  .form-button {
+    background-color: #002a3b;
+    color: #fff;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .form-button:hover {
+    background-color: #004b64;
+  }
+  
+
+  
