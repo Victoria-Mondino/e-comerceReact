@@ -9,9 +9,7 @@ const ItemList = ( { productos, titulo } ) => {
 
         <h2 className="main-title">{toCapital(titulo)}</h2>
         <div className="productos">
-        {productos.slice(0, 4).map((prod) => (
-          <Item producto={prod} key={prod.id} />
-        ))}
+        {productos.map((prod) => <Item producto={prod} key={prod.id} />)}
       </div>
 
     </div>
