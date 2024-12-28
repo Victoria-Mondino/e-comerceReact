@@ -2,8 +2,12 @@ import React, { useContext, useState } from 'react';
 import './ItemDetail.css';
 import ItemCount from '../ItemCount/ItemCount';
 import { toCapital } from '../../helpers/toCapital';
+import { CartContext } from '../../context/CartContext';
 
 const ItemDetail = ({ item }) => {
+  
+  const { carrito, setCarrito } = useContext(CartContext);
+
   
 
 
@@ -16,7 +20,10 @@ const ItemDetail = ({ item }) => {
     const handleSumar = () => {
         cantidad < item.stock && setCantidad(cantidad + 1)
     }
-  if (!item) {
+
+
+
+  if (!item) {       
     return <p>Item no encontrado.</p>;
   }
 
@@ -40,7 +47,7 @@ const ItemDetail = ({ item }) => {
                   cantidad={cantidad}
                   handleSumar={handleSumar}
                   handleRestar={handleRestar}
-                  handleAgregar={() => { agregarAlCarrito(item, cantidad) }}
+                  handleAgregar={handleAgregar}
                 />
         </div>
       </div>
