@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="footer-social">
           <p>We are social:</p>
           <div className="social-icons">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-tiktok"></i></a>
+            <a href="#"><i className="bi bi-facebook"></i></a>
+            <a href="#"><i className="bi bi-instagram"></i></a>
+            <a href="#"><i className="bi bi-tiktok"></i></a>
             <a href="#"><i className="fab fa-pinterest"></i></a>
           </div>
         </div>

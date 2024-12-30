@@ -58,23 +58,49 @@
     
   }
   
-  .navbar-icons {
+  .carrito {
+    display: inline-block; 
+    position: relative; 
+    font-size: 22px;
+  }
+  
+  .carrito a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 24px; 
     display: flex;
-    gap: 25px;
-    margin-right: 4rem;
+    align-items: center;
+    transition: transform 0.3s ease, color 0.3s ease; 
   }
   
-  .navbar-icons i {
-    font-size: 14px;
-    border-radius: 100%;
-    color: #ffffff;
-    background-color: #0a3747;
-    padding: 15px;
-    cursor: pointer;
-    transition: color 0.3s;
+  .carrito a:hover {
+    color: #007bff; 
+    transform: scale(1.2); 
   }
   
-  .navbar-icons i:hover {
-   background-color: black;
+  .bi-cart-check-fill {
+    font-size: inherit; 
   }
+  
+  .numerito {
+    position: absolute; 
+    top: -8px; 
+    right: -8px; 
+    background-color:  #005580; 
+    color: white; 
+    font-size: 9px; 
+    font-weight: bold;
+    padding: 4px 6px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white; 
+    transition: transform 0.3s ease; 
+  }
+  
+  div:hover .numerito {
+    transform: scale(1.2); 
+  }
+  
   

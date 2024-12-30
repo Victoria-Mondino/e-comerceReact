@@ -9,40 +9,15 @@ import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailCon
 import About from "./componentes/About/About";
 import ItemDetail from "./componentes/ItemDetail/ItemDetail";
 import Contact from "./componentes/Contact/Contact";
-import { useState } from "react";
-import { CartContext } from "./context/CartContext";
+import { CartProvider } from "./context/CartContext";
+import Carrito from "./componentes/Carrito/Carrito";
+
 
 function App() {
 
-  const [carrito, setCarrito] = useState([]);
-
-
-
-  const agregarAlCarrito = () => {
-    const itemAgregado = {...item, cantidad};
-
-    const nuevoCarrito = [...carrito];
-    const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id);
-
-    if (estaEnElCarrito) {
-      estaEnElCarrito.cantidad += cantidad;
-      
-    } else {
-      nuevoCarrito.push(itemAgregado);
-    }
-    setCarrito(nuevoCarrito);
-    
-    console.log('Carrito actualizado:', nuevoCarrito);
-
-  }
-
-
-
-
   return (
     <div>
-      <CartContext.Provider value={ {carrito, setCarrito}}>
-
+      <CartProvider>
         <BrowserRouter>
 
           <NavBar />
@@ -55,13 +30,16 @@ function App() {
               <Route path="/item" element={<ItemDetail />} />
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
+              <Route path="/Carrito" element={<Carrito />} />
             </Routes>
+
+           
 
           <Footer />
 
         </BrowserRouter>
 
-      </CartContext.Provider>
+        </CartProvider>
     </div>
   );
 }

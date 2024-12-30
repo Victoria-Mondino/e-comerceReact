@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
@@ -19,12 +20,10 @@ const NavBar = () => {
           <li><Link to="/productos/perros">Perro</Link></li>
           <li><Link to="/productos/gatos">Gato</Link></li>
           <li><Link to="/Contact">Contact</Link></li>
+         
         </ul>
         <div className="navbar-icons">
-          <i class="bi bi-search"></i>
-          <i class="bi bi-bag-heart"></i>
-          <i class="bi bi-person-circle"></i>
-          <i class="bi bi-cart-check-fill"></i>
+        <CartWidget /> 
         </div>
       </div>
     </nav>

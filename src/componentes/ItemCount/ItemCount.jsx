@@ -1,6 +1,5 @@
 import React from 'react'
-import './ItemCount.css';
-
+import "./ItemCount.css"
 const ItemCount = ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
 
   return (
@@ -11,7 +10,7 @@ const ItemCount = ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
             <p>{cantidad}</p>
             <button onClick={handleSumar}>+</button>
         </div>
-        <button className="agregar-al-carrito" onClick={handleAgregar}>Add too cart</button>
+        <button className="agregar-al-carrito" onClick={handleAgregar}>Agregar al carrito</button>
     </div>
   )
 }
