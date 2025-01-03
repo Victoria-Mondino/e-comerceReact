@@ -1,5 +1,5 @@
 .cart-page {
-    padding: 20px;
+    padding: 60px;
     font-family: "Fredoka", sans-serif;
     background-color: #f9f9f9;
   }
@@ -42,7 +42,7 @@
     gap: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
   }
   
   .cart-item-image {
@@ -128,7 +128,8 @@
   
   .quantity-button {
     width: 30px;
-    height: 30px;
+    height: 40px;
+    text-align: center;
     background-color: #1e88e5;
     color: white;
     border: none;

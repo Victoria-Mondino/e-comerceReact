@@ -1,153 +1,110 @@
-/* Contenedor principal */
 .container-detalle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 40px 20px;
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Estilo del contenedor del producto */
-  .producto-detalle {
-    display: flex;
-    gap: 30px;
- 
-   
-    padding: 30px;
-    max-width: 1000px;
-    width: 100%;
-  }
-  
-  /* Estilo de la imagen */
-  .producto-detalle img {
-    width: 500px;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Contenedor del texto */
-  .detalle-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-  }
-  
-  /* Título */
-  .detalle-info h3 {
-    font-family: "Fredoka", sans-serif;
-    font-size: 2rem;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  /* Descripción */
-  .detalle-info .descripcion {
-    font-size: 1rem;
-    font-family: "Fredoka", sans-serif;
-    color: #555;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-  
-  /* Categoría */
-  .detalle-info .categoria {
-    font-size: 0.9rem;
-    font-family: "Fredoka", sans-serif;
-    color: #777;
-    margin-bottom: 10px;
-  }
-  
-  /* Precio */
-  .detalle-info .precio {
-    font-size: 1.6rem;
-    font-family: "Fredoka", sans-serif;
-    color: #ff5a5f;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  /* Select y cantidad */
-  .select-cantidad {
-    display: flex;
- 
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
-  
-  .select-cantidad select {
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-  }
-  
-  /* Estilo base para el select */
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.producto-detalle {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.producto-detalle img {
+  max-width: 450px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.detalle-info {
+  flex: 1;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descripcion,
+.categoria,
+.precio {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
 .gramos-seccion {
-    font-family: "Fredoka", sans-serif;
-    width: 150px;
-    padding: 8px 12px;
-    font-size: 1rem;
-    color: #333;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    outline: none;
-    appearance: none; /* Elimina el estilo nativo del sistema */
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Añadir una flecha personalizada usando un pseudo-elemento */
-  .gramos-seccion {
-    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    background-size: 16px;
-  }
-  
-  /* Efecto hover */
-  .gramos-seccion:hover {
-    border-color: #aaa;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Efecto focus */
-  .gramos-seccion:focus {
-    border-color: #ffd60a;
-    box-shadow: 0 0 0 3px rgba(255, 214, 10, 0.5);
-  }
-  
-  /* Opciones */
-  .gramos-seccion option {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  
-  /* Botón */
-  .boton-carrito {
-    display: flex;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select-cantidad {
+  margin-bottom: 20px;
+}
+
+.agregar-al-carrito {
+  max-width: 400px;
+  padding: 10px 20px;
+  background-color: #fecd03;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+button:hover {
+  background-color: #ffd737;
+}
+
+/* Pestañas */
+.tabs-container {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.tabs button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 30px 30px;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs button.active {
+  border-bottom: 2px solid #fecd03;
+  font-weight: bold;
+}
+
+.tab-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .producto-detalle {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #ffd60a;
-    color: #333;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 30px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
   }
-  
-  .boton-carrito:hover {
-    background-color: #e0b800;
+
+  .detalle-info {
+    text-align: center;
   }
-  
+}
+
