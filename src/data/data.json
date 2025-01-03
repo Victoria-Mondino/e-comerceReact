@@ -21,7 +21,7 @@
         "id": 3,
         "titulo": "Stella & Chewy’s Freeze Dried Raw Chewy’s Chicken Meal Mixers Grain Free Dog Food Topper",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "peces",
+        "categoria": "fish",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export4-426x426.jpg",
         "precio": 1500,
         "stock": 10
@@ -48,7 +48,7 @@
         "id": 6,
         "titulo": "Cheese - Brie, Cups 125g",
         "descripcion": "In hac habitasse platea dictumst.",
-        "categoria": "remeras",
+        "categoria": "pajaros",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export8-426x426.jpg",
         "precio": 1500,
         "stock": 10
@@ -57,7 +57,7 @@
         "id": 7,
         "titulo": "Oneshot Automatic Soap System",
         "descripcion": "Morbi vel lectus in quam fringilla rhoncus.",
-        "categoria": "buzos",
+        "categoria": "peces",
         "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
         "precio": 1500,
         "stock": 10
@@ -66,7 +66,7 @@
         "id": 8,
         "titulo": "Myers Planters Punch",
         "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
-        "categoria": "pantalones",
+        "categoria": "pajaros",
         "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
         "precio": 1500,
         "stock": 10
