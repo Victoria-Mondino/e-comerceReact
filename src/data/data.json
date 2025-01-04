@@ -16,97 +16,130 @@
         "categoria": "perros",
         "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export3-426x426.jpg",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Perfectly sized training bites to reward all those sitting pups, those instagram posing mutts, and the slightly naughtier puppies who need a little daily bribing. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%.",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 3,
-        "titulo": "Stella & Chewy’s Freeze Dried Raw Chewy’s Chicken Meal Mixers Grain Free Dog Food Topper",
+        "titulo": "Applaws Natural Wet Cat Food Chicken Breast in Broth",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "fish",
-        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export4-426x426.jpg",
+        "categoria": "perros",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export10.jpg",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 4,
-        "titulo": "BIXBI Hip & Joint Beef Liver Jerky Recipe Dog Treats",
+        "titulo": "Bocce’s Bakery Every Day Say Moooo Training Bites Treats",
         "descripcion": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
-        "categoria": "perro",
-        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/05/Product-7-426x426.jpg",
+        "categoria": "perros",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export7.webp",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 5,
-        "titulo": "Glass - Juice Clear 5oz 55005",
+        "titulo": "Bocce’s Bakery Soft & Chewy Duck Recipe Dog Treats",
         "descripcion": "Sed accumsan felis.",
-        "categoria": "reptiles",
-        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export6-426x426.webp",
+        "categoria": "perros",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export5-640x640.webp",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 6,
-        "titulo": "Cheese - Brie, Cups 125g",
+        "titulo": "Greenies Pill Pockets Canine Chicken Flavor Dog Treats",
         "descripcion": "In hac habitasse platea dictumst.",
-        "categoria": "pajaros",
-        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export8-426x426.jpg",
+        "categoria": "perros",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export.jpeg",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 7,
-        "titulo": "Oneshot Automatic Soap System",
+        "titulo": "Dogswell Hip & Joint Jerky Treats, Chicken Breast",
         "descripcion": "Morbi vel lectus in quam fringilla rhoncus.",
-        "categoria": "peces",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "categoria": "perros",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export8.webp",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 8,
-        "titulo": "Myers Planters Punch",
+        "titulo": "Bocce’s Bakery Every Day Bac’n Nutty Training Bites Dog Treats",
         "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
-        "categoria": "pajaros",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "categoria": "gatos",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export6-640x640.webp",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 9,
-        "titulo": "Nut - Almond, Blanched, Ground",
-        "descripcion": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
-        "categoria": "pantalones",
-        "imagen": "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "titulo": "HomeoPet Anxiety Treatment",
+        "descripcion": "HomeoPet Anxiety Treatment",
+        "categoria": "gatos",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export3.webp",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 10,
-        "titulo": "Pasta - Fett Alfredo, Single Serve",
+        "titulo": "Applaws Natural Wet Cat Food Chicken Breast with Pumpkin in Broth",
         "descripcion": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
-        "categoria": "remeras",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "categoria": "gatos",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export9-640x640.jpg",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 11,
-        "titulo": "Bread - Assorted Rolls",
+        "titulo": "Bocce’s Bakery Every Day Say Moooo Training Bites Treats",
         "descripcion": "Mauris sit amet eros.",
-        "categoria": "remeras",
-        "imagen": "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "categoria": "gatos",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export7-640x640.webp",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 12,
-        "titulo": "Table Cloth 62x120 White",
+        "titulo": "carefresh® Small Pet Bedding – Natural",
         "descripcion": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
-        "categoria": "medias",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "categoria": "conejo",
+        "imagen": "https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export5-1-640x640.jpeg",
         "precio": 1500,
-        "stock": 10
+        "stock": 10,
+        "details": "Applaws Chicken Breast Canned Cat Food contains nothing more than the ingredients listed and is a natural complementary pet food for adult cats. Buy this product on petsonbroadwaynyc.com",
+        "ingredients": "Ingredients: Rabbit with Ground Bone, Olive Oil, Pumpkin Seed, Potassium Chloride, Organic Cranberries, Organic Spinach, Organic Broccoli, Organic Beets, Sodium Phosphate Monobasic, Organic Carrots, Organic Squash, Organic Apples, Organic Blueberries, Choline Chloride, Dried Pediococcus Acidilactici Fermentation Product, Dried Lactobacillus Acidophilus Fermentation Product, Dried Bifidobacterium Longum Fermentation Product, Dried Enterococcus Faecium Fermentation Product, Taurine, Tocopherols (Preservative), Calcium Carbonate, Zinc Proteinate, Zinc Sulfate, Iron Sulfate, Iron Proteinate, Vitamin E Supplement, Niacin, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Sodium Selenite, Manganese Proteinate, Thiamine Mononitrate, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Calcium Iodate Guaranteed Analysis Crude protein (min) 30%, Crude fat (min) 15%, Crude fiber (max) 3.5%, Moisture (max) 11%. ",
+        "shipping": "Free Standard Shipping with any online purchase of $50 (merchandise subtotal excludes store pick up items; merchandise subtotal is calculated before sales tax, before gift wrap charges, and after any discounts or coupons). Truck delivery and shipping surcharges on over-sized or extremely heavy items will still apply (these charges are indicated on the appropriate product information pages and will be displayed in the shipping subtotal of your order). Orders typically arrive within 3-6 business days. Items shipped directly from the vendor or to Alaska and Hawaii have longer delivery lead times. This offer does not apply to Alaska, Hawaii, Puerto Rico or Business Direct orders."
     },
     {
         "id": 13,

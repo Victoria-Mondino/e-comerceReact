@@ -5,7 +5,7 @@ import "./Categories.css";
 const categories = [
   { name: "Dogs", emoji: "🐕", link: "/productos/perros" },
   { name: "Cats", emoji: "🐈", link: "/productos/gatos" },
-  { name: "Small", emoji: "🐇", link: "/productos/productos-conejo" },
+  { name: "Small", emoji: "🐇", link: "/productos/conejo" },
   { name: "Fish", emoji: "🐟", link: "/productos/fish" },
   { name: "Reptil", emoji: "🦎", link: "/productos/reptiles" },
   { name: "Bird", emoji: "🦜", link: "/productos/pajaros" },
