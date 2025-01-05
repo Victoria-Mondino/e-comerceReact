@@ -2,7 +2,8 @@ import React from "react";
 import CategoryCard from "../CategoryCard/CategoryCard";
 import "./Categories.css";
 
-const categories = [
+// Exportar el array por separado
+export const categories = [
   { name: "Dogs", emoji: "🐕", link: "/productos/perros" },
   { name: "Cats", emoji: "🐈", link: "/productos/gatos" },
   { name: "Small", emoji: "🐇", link: "/productos/conejo" },
@@ -10,7 +11,6 @@ const categories = [
   { name: "Reptil", emoji: "🦎", link: "/productos/reptiles" },
   { name: "Bird", emoji: "🦜", link: "/productos/pajaros" },
 ];
-
 
 const Categories = () => {
   return (

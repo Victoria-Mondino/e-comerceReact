@@ -1,36 +1,73 @@
+/* Contenedor principal */
 .container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-  }
-  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; 
+}
+
+/* Título principal */
+.main-title {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Productos */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.producto {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+.producto img {
+  max-width: 100%;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
   .main-title {
-    font-family: "Fredoka", sans-serif;
-    font-weight: 700;
-    text-align: left; 
-    font-size: 2rem; 
-    margin-bottom: 1.5rem; 
-    color: #333; 
+    font-size: 1.8rem; 
+    text-align: center; 
   }
-  
+
   .productos {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-    gap: 1.5rem; 
-    margin-bottom: 2rem;
+    gap: 1rem; 
   }
-  
-  .producto  {
-    background-color: #fff; 
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
-    padding: 1rem;
-    transition: transform 0.2s; 
+
+  .producto {
+    padding: 0.8rem; 
   }
-  .producto img {
-    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 1.5rem; 
+    margin-bottom: 1rem;
   }
-  
-  .producto:hover {
-    transform: scale(1.05); 
+
+  .productos {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 0.8rem; 
   }
+
+  .producto {
+    padding: 0.5rem; 
+  }
+}
+
   

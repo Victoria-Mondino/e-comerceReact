@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
 /* NavBar.css */
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 .navbar {
@@ -7,7 +9,7 @@
     padding: 10px 20px;
     background-color: #ffffff;
     border-bottom: 2px solid #e0e0e0;
-    font-family: Arial, sans-serif;
+    font-family: "Fredoka", sans-serif;
   }
   
   .navbar-container {
@@ -103,4 +105,89 @@
     transform: scale(1.2); 
   }
   
-  
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown > span {
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 500;
+  color: #0a3747;
+}
+
+/* Menú Hamburguesa */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #0a3747;
+  transition: all 0.3s ease;
+}
+
+.hamburger .line.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger .line.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger .line.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    z-index: 100;
+  }
+
+  .navbar-menu.active {
+    height: auto;
+  }
+
+  .navbar-menu li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+  }
+}
