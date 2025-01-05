@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { pedirDatos } from "../../helpers/pedirDatos";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../../firebase/config"; 
 
 const ItemListContainer = ({ limit }) => {
     const [productos, setProductos] = useState([]);
@@ -9,19 +10,24 @@ const ItemListContainer = ({ limit }) => {
     const categoria = useParams().categoria;
 
     useEffect(() => {
-        pedirDatos()
-            .then((res) => {
-                if (categoria) {
-                    setProductos(res.filter((prod) => prod.categoria === categoria));
-                    setTitulo(categoria);
-                } else {
-                    setProductos(res);
-                    setTitulo("Productos");
-                }
-            });
+        const productosRef = collection(db, "productos");
+        const q = categoria ? query(productosRef, where("categoria", "==", categoria)) : productosRef;
+
+        getDocs(q)
+            .then((resp) => {
+                const productosData = resp.docs.map((doc) => ({
+                    ...doc.data(),
+                    id: doc.id,
+                }));
+                
+                // Si hay una categoría, se usa como título, sino se usa "Productos"
+                setProductos(productosData);
+                setTitulo(categoria ? categoria : "Productos");
+            })
+            .catch((error) => console.error("Error al obtener los productos desde Firebase:", error));
     }, [categoria]);
 
-    // FUNCION PARA EL LIMITE 
+    // Aplicar límite de productos si se pasa el prop `limit`
     const productosMostrados = limit ? productos.slice(0, limit) : productos;
 
     return (
@@ -32,4 +38,3 @@ const ItemListContainer = ({ limit }) => {
 };
 
 export default ItemListContainer;
-
