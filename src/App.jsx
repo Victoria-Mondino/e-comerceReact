@@ -11,6 +11,7 @@ import ItemDetail from "./componentes/ItemDetail/ItemDetail";
 import Contact from "./componentes/Contact/Contact";
 import { CartProvider } from "./context/CartContext";
 import Carrito from "./componentes/Carrito/Carrito";
+import Checkout from "./componentes/Checkout/Checkout";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Carrito" element={<Carrito />} />
+              <Route path="/Checkout" element={<Checkout />} />
             </Routes>
 
            

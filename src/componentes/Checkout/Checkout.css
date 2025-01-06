@@ -1,0 +1,239 @@
+/* General container */
+.checkout-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: "Fredoka", sans-serif;
+    color: #333;
+  }
+  
+  /* Title */
+  .checkout-title {
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .checkout-form {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .billing-details {
+    flex: 1 1 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .form-group {
+    width: calc(50% - 10px);
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"] {
+    margin-bottom: 10px;
+  }
+  
+  .form-group:nth-child(3) {
+    width: 100%; /* Company name full width */
+  }
+  
+  .order-summary {
+    flex: 1 1 35%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .order-summary h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Order items */
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .order-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .order-totals p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .order-totals p strong {
+    font-weight: bold;
+  }
+  
+  /* Payment methods */
+  .payment-method label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .payment-method p {
+    margin: 5px 0 10px 20px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /* Terms and conditions */
+  .terms {
+    margin: 20px 0;
+  }
+  
+  .terms label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  /* Submit button */
+  .place-order-btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .place-order-btn:hover {
+    background-color: #0056b3;
+  }
+  
+/* General container */
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  /* Card */
+  .thank-you-card {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Title */
+  .thank-you-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation: pop-in 0.5s ease-out;
+  }
+  
+  /* Message */
+  .thank-you-message {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Order ID */
+  .order-id {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #ffdd57;
+  }
+  
+  /* Next steps */
+  .next-steps {
+    font-size: 1rem;
+    margin: 15px 0 30px;
+  }
+  
+  /* Button */
+  .return-home-btn {
+    background-color: #ffdd57;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .return-home-btn:hover {
+    background-color: #ffc107;
+    transform: translateY(-3px);
+  }
+  
+  .return-home-btn:active {
+    transform: translateY(1px);
+  }
+  
+  /* Animations */
+  @keyframes pop-in {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

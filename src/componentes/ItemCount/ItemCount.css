@@ -9,6 +9,7 @@
   .item-count button {
     background-color: #f4f4f4; 
     border: 2px solid #ccc;
+    color: #333;
     font-size: 1.2rem;
     padding: 10px 15px;
     border-radius: 5px;

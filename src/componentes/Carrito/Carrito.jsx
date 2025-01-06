@@ -86,7 +86,7 @@ const Carrito = () => {
           <button onClick={handleVaciar} className="empty-cart-button">
             Clear Cart
           </button>
-          <Link to="/checkout" className="checkout-button">
+          <Link to="/Checkout" className="checkout-button">
             Proceed to Checkout
           </Link>
         </div>
