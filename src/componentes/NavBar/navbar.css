@@ -10,6 +10,7 @@
     background-color: #ffffff;
     border-bottom: 2px solid #e0e0e0;
     font-family: "Fredoka", sans-serif;
+    font-weight: 700;
   }
   
   .navbar-container {
@@ -161,6 +162,7 @@
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
+    justify-content: space-between;
   }
 
   .navbar-menu {
@@ -178,6 +180,10 @@
 
   .navbar-menu.active {
     height: auto;
+  }
+  .navbar-logo .logo  {
+    margin: 0;
+    padding: 0;
   }
 
   .navbar-menu li {

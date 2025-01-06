@@ -56,7 +56,7 @@ const Home = () => {
             </div>
             <section className="pet-section">
                 <div className="pet-content">
-                    <div className="pet-images">
+                    <div className="pet-images-home">
                         <img
                             src="https://petmania.vamtam.com/wp-content/uploads/2022/07/iStock-513048080.png"
                             alt="Dog and Cat"

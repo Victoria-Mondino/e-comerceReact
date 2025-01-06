@@ -1,163 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@97.4,300..700&family=Readex+Pro&display=swap');
 
-
+/* General section styles */
 /* General section styles */
 .dog-food-section {
-    background-color: #B4D0EF;
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Container for text and image */
-  .dog-food-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    gap: 2rem;
-  }
-  
-  /* Text content */
-  .text-content {
-    max-width: 500px;
-  }
-  
-  .text-content h1 {
-    font-family: "Fredoka", sans-serif;
-    font-weight: 900;
-    font-size: 5rem;
-    color: #003554;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  .text-content p {
-    font-family: "Fredoka", sans-serif;
-    font-size: 1.2rem;
-    color: #003554;
-    margin-bottom: 1.5rem;
-  }
-  
-  .shop-now-btn {
-    background-color: #003554;
-    font-family: "Fredoka", sans-serif;
-    color: #fff;
-    padding: 0.8rem 2rem;
-    border: none;
-    border-radius: 15px;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .shop-now-btn:hover {
-    background-color: #005580;
-  }
-  
-  /* Image container */
-  .dog-image-container {
-    position: relative;
-    max-width: 500px;
-  }
-  
-  .dog-image {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .food-image {
-    position: absolute;
-    top: 50%;
-    bottom: 0;
-    left: 52%;
-    transform: translate(-50%, 30%);
-    width: 100%;
-  }
-  
-  /* Free shipping bar */
-  .free-shipping {
-    background-color: #eef7fc;
-    margin-top: -2rem;
-    padding: 1rem;
-    text-align: left;
-    width: 100%;
-  }
-  
-  .free-shipping p {
-    font-size: 1rem;
-    font-family: "Fredoka", sans-serif;
-    font-weight: 300;
-    margin-left: 18rem;
-    color: #003554;
-    font-weight: bold;
-  }
-  
-  .shipping-icon {
-    margin-right: 0.5rem;
-  }
-  /* Estilos para la sección "Trending" */
-.trending-section {
-  text-align: center;
+  background-color: #B4D0EF;
   padding: 2rem 1rem;
-  font-family: Arial, sans-serif;
-}
-
-.trending-title {
-  font-family: "Fredoka", sans-serif;
-  margin-top: 2rem;
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 3rem;
-}
-
-.trending-items {
-  display: flex;
-  justify-content: center;
-  margin: 0 14rem 5rem 14rem;
-}
-
-.trending-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
 }
 
-.trending-image {
-  width: 70%;
-  height: auto;
-  border-radius: 50%;
-  padding: 2rem;
-}
-.trending-item img {
-  transition: transform 0.3s ease; 
-}
-
-.trending-item img:hover {
-  transform: scale(1.1); 
+/* Container for text and image */
+.dog-food-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 2rem;
 }
 
-.trending-shop {
+/* Text content */
+.text-content {
+  max-width: 500px;
+}
+
+.text-content h1 {
   font-family: "Fredoka", sans-serif;
-  margin-top: 1rem;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #003554;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.text-content p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.2rem;
+  color: #003554;
+  margin-bottom: 1.5rem;
+}
+
+.shop-now-btn {
+  background-color: #003554;
+  font-family: "Fredoka", sans-serif;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 15px;
   font-size: 1rem;
-  font-weight: 400;
-  color: #007bff;
+  cursor: pointer;
 }
 
-.trending-name {
+.shop-now-btn:hover {
+  background-color: #005580;
+}
+
+/* Image container */
+.dog-image-container {
+  position: relative;
+  max-width: 500px;
+}
+
+.dog-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.food-image {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 52%;
+  transform: translate(-50%, 30%);
+  width: 100%;
+}
+
+/* Free shipping bar */
+.free-shipping {
+  background-color: #eef7fc;
+  margin-top: -2rem;
+  padding: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.free-shipping p {
+  font-size: 1rem;
   font-family: "Fredoka", sans-serif;
-  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 18rem;
+  color: #003554;
   font-weight: bold;
 }
 
+.shipping-icon {
+  margin-right: 0.5rem;
+}
+/* Estilos para la sección "Trending" */
+.trending-section {
+text-align: center;
+padding: 2rem 1rem;
+font-family: Arial, sans-serif;
+}
 
- /* PetSection.css */
- .pet-section {
+.trending-title {
+font-family: "Fredoka", sans-serif;
+margin-top: 2rem;
+font-size: 3rem;
+font-weight: bold;
+margin-bottom: 3rem;
+}
+
+.trending-items {
+display: flex;
+justify-content: center;
+margin: 0 14rem 5rem 14rem;
+}
+
+.trending-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+overflow: hidden;
+}
+
+.trending-image {
+width: 70%;
+height: auto;
+border-radius: 50%;
+padding: 2rem;
+}
+.trending-item img {
+transition: transform 0.3s ease; 
+}
+
+.trending-item img:hover {
+transform: scale(1.1); 
+}
+
+.trending-shop {
+font-family: "Fredoka", sans-serif;
+margin-top: 1rem;
+font-size: 1rem;
+font-weight: 400;
+color: #007bff;
+}
+
+.trending-name {
+font-family: "Fredoka", sans-serif;
+font-size: 2rem;
+font-weight: bold;
+}
+
+
+
+/* Pet Section */
+/* PetSection.css */
+.pet-section {
   padding: 3rem;
   margin-bottom: 8rem;
  }
@@ -168,7 +170,7 @@
   gap: 2rem;
 }
 
-.pet-images {
+.pet-images-home {
   position: relative;
   flex: 1 1 50%;
   display: flex;
@@ -246,4 +248,72 @@
 
 .learn-more:active {
   transform: translateY(0); 
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .dog-food-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .dog-image-container {
+    max-width: 300px;
+  }
+
+  .trending-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .free-shipping p {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    margin-top: 32px;
+  }
+  .trending-items {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pet-content {
+    flex-direction: column;
+  }
+
+  .pet-main-image {
+    max-width: 200px;
+  }
+
+  .food-bowl-image {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-content h1 {
+    font-size: 2rem;
+  }
+
+  .text-content p {
+    font-size: 0.9rem;
+  }
+
+  .trending-title {
+    font-size: 1.5rem;
+  }
+
+  .trending-name {
+    font-size: 1rem;
+  }
+
+  .learn-more {
+    font-size: 0.9rem;
+  }
 }
